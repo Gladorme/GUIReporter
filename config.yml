@@ -1,0 +1,25 @@
+# GUIReporter by MisterSanglad and adrien2431
+# Config version: 2.0.0
+# Thanks for use my plugin !
+
+# %t = player who cheat | %p = player who report the hacker | %r = reason | %s = cooldown
+MsgConfirm: '&aYour report has been take in count, an operator will take care of your demand'
+MsgNotif: '&f[&4&lReporter&f] &4The player&e %t &4has been reported by&a %p &4for&e %r &4!'
+MsgInvalidArg: '&f[&4&lReporter&f] &cInvalid Arguments: /report <player>'
+MsgYourself: '&f[&4&lReporter&f] &cYou can''t report yourself'
+MsgUnknowPlayer: '&f[&4&lReporter&f] &cThis player isn''t online or doesn''t exist !'
+MsgCooldown: '&f[&4&lReporter&f] &cPlease wait %s seconds !'
+
+# Time in seconds
+Cooldown: 60
+
+# Items
+items:
+  - forcefield:
+    name: "&cForceField"
+    lore: "&cExample \n&7test"
+    item: "1:0"
+  - spam:
+    name: "&aSpam"
+    lore: ""
+    item: "1:0"

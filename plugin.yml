@@ -1,0 +1,12 @@
+name: GUIReporter
+version: 2.0.0
+author: MisterSanglad
+authors: [adrien2431]
+main: fr.sanglad.GUIReporter.GUIReporter
+commands:
+    guireporter:
+        description: Commande principale de GUIReporter
+        aliases: [guir,gr]
+    report:
+        description: Report a player
+        aliases: [rep, report]
